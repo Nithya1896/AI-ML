@@ -1,0 +1,15 @@
+What is Regression?
+Regression is a type of Supervised Learning where the goal is to predict a continuous numerical value (e.g., house price, temperature, sales revenue).
+
+Types of Regression Models
+Here are the most common types of regression models:
+
+1.Linear Regression (Simple & Multiple):
+2.Polynomial Regression
+3.Ridge & Lasso Regression
+4.Logistic Regression 
+
+Other Models:
+Support Vector Regression (SVR): Works well for high-dimensional datasets.
+Decision Trees/Random Forest Regression: Non-linear models that split the data based on decision rules.
+Neural Networks for Regression: Handles complex non-linear relationships using deep learning.
