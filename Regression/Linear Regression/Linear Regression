@@ -1,0 +1,26 @@
+When to Use:
+Linear Relationship: When there’s a linear relationship between the independent variables (features) and the dependent variable (target).
+Few Features: Works well when the number of features is small (especially for simple linear regression with one feature).
+Less Complexity: If you need a model that’s easy to interpret and doesn't require much computational power.
+
+How to know the relationship is linear?
+
+Scatter Plot (for Simple Linear Regression)
+A scatter plot is one of the simplest ways to visually assess the linearity between a single feature and the target variable. Here’s how you can do it:
+What to do: Plot each data point as a dot where the x-axis represents the independent variable and the y-axis represents the dependent variable.
+How it helps: If the points form a roughly straight line (either increasing or decreasing), it indicates a linear relationship. If they follow a curve or pattern that’s not straight, the relationship is likely non-linear.
+Library used in Python:matplotlib
+
+Pair Plot (for Multiple Features)
+If you have multiple independent variables, a pair plot (or scatter plot matrix) is helpful. This visualizes the pairwise relationships between features and the target variable.
+What to do: Use seaborn.pairplot() to generate scatter plots for all pairs of variables in your dataset.
+How it helps: It gives you a sense of the linear or non-linear relationship between each feature and the target variable.
+Library used in Python:seaborn
+
+Correlation Coefficients
+The correlation coefficient quantifies the strength and direction of the relationship between two variables. If the relationship is linear, the correlation coefficient (Pearson’s r) should be close to +1 (positive correlation) or -1 (negative correlation).
+What to do: Calculate the Pearson correlation coefficient between the feature(s) and target variable.
+How it helps:
+Values close to +1 or -1 indicate a strong linear relationship.
+Values near 0 indicate a weak or no linear relationship.
+Library used in Python:scipy
