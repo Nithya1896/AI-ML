@@ -1,0 +1,27 @@
+What is Supervised Learning?
+Supervised Learning is like learning with a teacher.
+The model is trained on a labeled dataset, where the correct answers (outputs) are already known.
+The goal is for the model to learn the relationship between the inputs (features) and the outputs (labels) so it can predict outcomes for new, unseen data.
+
+Key Components of Supervised Learning:
+Inputs (Features):
+These are the pieces of information used to make predictions.
+Example: In predicting house prices, inputs could be square footage, number of bedrooms, location, etc.
+Outputs (Labels):
+These are the correct answers or targets the model tries to predict.
+Example: The price of the house (output) based on the inputs.
+Model:
+A mathematical representation that maps inputs to outputs.
+Example: A linear regression model might predict house prices as:
+Price = (Size * Weight1) + (Location * Weight2) + Bias
+Training:
+The process of showing the model the input-output pairs so it learns the pattern.
+
+Two Types of Supervised Learning Problems
+Regression (Continuous Outputs):
+Predict a numerical value.
+Example: Predicting house prices, temperature, or stock prices.
+
+Classification (Categorical Outputs):
+Predict a category or label.
+Example: Email spam detection (Spam or Not Spam), disease diagnosis (Positive or Negative).
